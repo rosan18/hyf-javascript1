@@ -68,8 +68,8 @@ console.log(typeof number );
   if(t===d){
       console.log(t + "and" +d + "same type");
 }else {
-   console.log(t + "and" +d +"not same type") 
-};
+   console.log(t + "and" +d +"not same type") ;0
+}
 
   //modulus operator % //
   let x=7;
@@ -85,6 +85,10 @@ console.log(typeof number );
    console.log("An array can store multiple values under the same name")
    // example of array storing multiple values //
    var myInfo=[25,rose,Nigeria];
-    
+    if(6/0===10/0){
+    console.log(true);
+    else{
+    console.log(false);
+}
     
     
